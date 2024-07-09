@@ -2,8 +2,7 @@
 
 Docker run code: 
 
-xhost +local:docker
-
+    xhost +local:docker
     docker run --rm -it --privileged \
     --net host \
    -e DISPLAY=$DISPLAY \
