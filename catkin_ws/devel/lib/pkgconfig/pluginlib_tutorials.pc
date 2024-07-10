@@ -1,0 +1,8 @@
+prefix=/root/ws/catkin_ws/devel
+
+Name: pluginlib_tutorials
+Description: Description of pluginlib_tutorials
+Version: 0.2.0
+Cflags: -I/root/ws/catkin_ws/src/common_tutorials/pluginlib_tutorials/include -I/usr/include
+Libs: -L${prefix}/lib -lpluginlib_tutorials
+Requires: pluginlib roscpp

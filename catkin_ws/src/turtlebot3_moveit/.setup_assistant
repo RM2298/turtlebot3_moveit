@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: turtlebot3_description
+    relative_path: urdf/turtlebot3_waffle.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/turtlebot3_waffle.srdf
+  CONFIG:
+    author_name: Rai
+    author_email: mrrayworld@gmail.com
+    generated_timestamp: 1720536746

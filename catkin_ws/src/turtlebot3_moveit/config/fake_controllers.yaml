@@ -1,0 +1,10 @@
+controller_list:
+  - name: fake_group_1_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - virtual_joint
+      - wheel_left_joint
+      - wheel_right_joint
+initial:  # Define initial robot poses per group
+  - group: group_1
+    pose: pose_1

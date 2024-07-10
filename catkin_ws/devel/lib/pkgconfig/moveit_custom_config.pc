@@ -1,0 +1,8 @@
+prefix=/root/ws/catkin_ws/devel
+
+Name: moveit_custom_config
+Description: Description of moveit_custom_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

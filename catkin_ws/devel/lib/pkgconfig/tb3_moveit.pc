@@ -1,0 +1,8 @@
+prefix=/root/ws/catkin_ws/devel
+
+Name: tb3_moveit
+Description: Description of tb3_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

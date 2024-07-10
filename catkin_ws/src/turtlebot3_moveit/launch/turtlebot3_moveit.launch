@@ -1,0 +1,10 @@
+<launch>
+  <!-- Avvia ROS e i pacchetti di MoveIt -->
+  <include file="$(find turtlebot3_bringup)/launch/turtlebot3_robot.launch" />
+  <include file="$(find turtlebot3_moveit)/launch/move_group.launch" />
+  <include file="$(find turtlebot3_moveit)/launch/demo.launch" />
+
+  <!-- Avvia i controllori -->
+  <include file="$(find turtlebot3_moveit)/launch/controllers.launch" />
+</launch>
+

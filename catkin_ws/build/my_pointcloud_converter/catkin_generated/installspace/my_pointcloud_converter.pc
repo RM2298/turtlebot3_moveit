@@ -1,0 +1,8 @@
+prefix=/root/ws/catkin_ws/install
+
+Name: my_pointcloud_converter
+Description: Description of my_pointcloud_converter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
